@@ -4,7 +4,7 @@ This Repo is created for Module 3 challenge
 ## Description
 #### This repo is created using Bootstrap.
 <ul>
-<li>This person webpage is created to display my future projects. As I just started this path, at the moment I don't have what to show up, so at the moment basically all content there present as placeholder.
+<li>This person webpage is created to display my future projects. As I just started this path, at the moment I don't have what to show up, so at the moment basically all content there present as placeholder
 
 <li>When one of the links in the navigation is clicked then the UI smoothly scrolls to the corresponding section
 
@@ -12,11 +12,11 @@ This Repo is created for Module 3 challenge
 
 <li>Jumbotrop is used for a welcome text and personal image is moved to about me section as more relevant
 
-<li>About me section contains personal image placeholder, placeholder with "Text about me" and download resume hyperlink and lastly list of skills which I want to learn during bootcamp.
+<li>About me section contains personal image placeholder, placeholder with "Text about me" and download resume hyperlink and lastly list of skills which I want to learn during bootcamp
 
 <li>All buttons displaying box shadow upon hoover
 
-<li>All hyperlinks displaying hoover effect.
+<li>All hyperlinks displaying hoover effect
 
 <li> No additional media queries used apart of default bootrap media queries
 </ul>
@@ -37,7 +37,7 @@ Credits to https://materialdesignicons.com/ for my "Contacts" and "Download" ico
 Credits to https://unsplash.com/ for the background image for the webpage
 
 ## Tests
-Webpage tested in Google Chrome and Microsoft Edge and Safari browsers with different screen sizings.
+Webpage tested in Google Chrome and Microsoft Edge and Safari browsers with different screen sizings
 
 ## Licence
 MIT licence
