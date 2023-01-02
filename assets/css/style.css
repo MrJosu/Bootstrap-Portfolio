@@ -5,7 +5,7 @@
     --primecolor: white;
  }
  body {
-    background-image: url(/assets/images/bg-img.jpg); 
+    background-image: url(/assets/images/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
