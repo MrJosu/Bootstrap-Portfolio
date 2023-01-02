@@ -1,12 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/style.css">
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <title>My Portfolio</title>
   </head>
@@ -18,58 +16,60 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>   
-                <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--Try to play with -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#welcome">Welcome<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
+                        <a class="nav-link" href="#about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacts</a>
                     </li>
                 </ul>
                 </div>
             </div>
         </nav>
-        <header class="jumbotron jumbotron-fluid bg-info">
+        <header class="jumbotron jumbotron-fluid bg-transparent" id="welcome">
             <div class="container">
-            <div class="col-lg-11 mx-auto text-white">
+            <div class="col-lg-11 mx-auto text-white mt-5">
               <h1 class="display-4">Welcome to My Portfolio</h1>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat feugiat congue. Morbi ut ornare erat. Fusce pretium tellus et rhoncus laoreet. Vivamus eget convallis neque. Etiam porta malesuada nisl ac euismod. Sed id ipsum vitae nibh molestie pharetra. Vestibulum ultrices suscipit ultrices. Morbi ultricies sit amet leo sed malesuada.</p>
-              <a href="#" class="btn btn-primary btn-lg">Call to action</a>
             </div>
         </header>
-       <section class="container">
+       <section class="container-fluid main-section" id="projects">
         <div class="row d-flex justify-content-around mt-8">
-            <h1 class="my-4">My Projects</h1>
+            <h2 class="my-5 text-white">My Projects</h1>
         </div>
         <div class="row justify-content-between text-center mt-8">
             <div class="col-lg-5 mx-auto mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/500x325.png?text=Project+1">
+                    <img class="card-img-top" src="https://placehold.co/500x325?text=Project+1" alt="Placeholder one">
                     <div class="card-body">
                       <h4>Project #1</h4>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin feugiat egestas. Nulla in tristique nibh, hendrerit pellentesque neque. Fusce.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="" class="btn btn-primary">Find out more</a>
+                        <a href="" class="btn btn-dark">Find out more</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 mx-auto mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/500x325.png?text=Project+2">
+                    <img class="card-img-top" src="https://placehold.co/500x325?text=Project+2" alt="Placeholder two">
                     <div class="card-body">
                       <h4>Project #2</h4>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum porta hendrerit. Curabitur et lectus rhoncus, blandit sapien eget, porta.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="" class="btn btn-primary">Find out more</a>
+                        <a href="" class="btn btn-dark">Find out more</a>
                     </div>
                 </div>
             </div>
@@ -77,50 +77,62 @@
         <div class="row justify-content-between text-center mt-8">
             <div class="col-lg-5 mx-auto mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/500x325.png?text=Project+3">
+                    <img class="card-img-top" src="https://placehold.co/500x325?text=Project+3" alt="Placeholder three">
                     <div class="card-body">
                       <h4>Project #3</h4>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac auctor quam, at vestibulum lacus. Phasellus sodales tincidunt maximus. Vestibulum.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="" class="btn btn-primary">Find out more</a>
+                        <a href="" class="btn btn-dark">Find out more</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 mx-auto mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/500x325.png?text=Project+4">
+                    <img class="card-img-top" src="https://placehold.co/500x325?text=Project+4" alt="Placeholder four">
                     <div class="card-body">
                       <h4>Project #4</h4>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh lectus, convallis nec massa sit amet, feugiat ultricies risus. Aliquam.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="" class="btn btn-primary">Find out more</a>
+                        <a href="" class="btn btn-dark">Find out more</a>
                     </div>
                 </div>
             </div>
         </div>   
        </section>
           <section>
-            <div class="container bg-secondary">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 order-lg-2">
-                      <img class="img-fluid rounded-circle" src="https://i.pravatar.cc/200?u=a0fdsfdsfsdfwrewrw4d">   
+            <div class="container-fluid bg-transparent">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-lg-4 order-lg-1 mt-2 mb-2 about-me">
+                      <img class="img-fluid rounded-circle" src="https://i.pravatar.cc/350?u=a0fdsfdsfsdfwrewrw4d" alt="Portfolio owner picture">   
                     </div>
 
-                    <div class="col-lg-7 order-lg-1 text-white">
+                    <div class="col-lg-4 order-lg-2 text-white" id="about">
                         <div class="p-5">
                         <h2 class="display-4">About me</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lacinia leo. Curabitur libero odio, elementum eu pellentesque vel, interdum sit amet purus. Integer fringilla posuere leo, pellentesque aliquet odio condimentum ac. Vestibulum ornare lectus purus, ac hendrerit risus finibus non. Etiam libero enim, interdum id pretium eu, sollicitudin at massa. Nulla ornare sagittis lorem, vel aliquam ipsum iaculis sed. Mauris feugiat, elit eget pulvinar tristique, tortor magna ullamcorper orci, nec vulputate tellus lectus a tellus. Praesent sit amet volutpat ligula.</p>
-                        <a href="" class="btn btn-outline-light">
+                        <a href="" class="btn btn-outline-light resume">
                             <i class="mdi mdi-tray-arrow-down"></i> Download my Resume
                         </a>
                         </div>
+                    </div>
+                    <div class="col-lg-4 mt-2 mb-2 order-lg-3 skills" id="skills">
+                        <h4 class="skills-heading">My Skills (Study in progress)</h4>
+                        <ul class="list-group-transparent list-group-flush">
+                            <li class="list-group-item list-group-item-dark">HTML</li>
+                            <li class="list-group-item list-group-item-dark">CSS</li>
+                            <li class="list-group-item list-group-item-dark">Bootstrap</li>
+                            <li class="list-group-item list-group-item-dark">Javascript</li>
+                            <li class="list-group-item list-group-item-dark">Work with API's</li>
+                            <li class="list-group-item list-group-item-dark">ES6 and Node.js</li>
+                            <li class="list-group-item list-group-item-dark">React</li>
+                          </ul>
                     </div>               
                 </div>
             </div>
           </section>
-          <footer class="footer bg-light">
+          <footer class="footer bg-dark" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center mx-auto">
@@ -141,14 +153,11 @@
                                 </a>  
                             </li>                
                         </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; My portfolio website 2023. Coded by Josu</p>
+                        <p class="text-white small mb-4 mb-lg-0">&copy; My portfolio website 2023. Coded by Josu</p>
                     </div>
-
                 </div>
             </div>
          </footer>
-    
-    
         </section>
      </body>
 </html>

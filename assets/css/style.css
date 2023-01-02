@@ -1,0 +1,57 @@
+ *{
+    scroll-behavior: smooth;
+ }
+ :root {
+    --primecolor: white;
+ }
+ body {
+    background-image: url(/assets/images/bg-img.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #616a74 ;
+ }
+ a {
+    color:var(--primecolor);
+ }
+ i {
+    font-size: 40px ;
+    color:var(--primecolor);
+ }
+ h2 {
+    font-size: 40px;
+ }
+ a:hover {
+    text-decoration: none;
+    color:var(--primecolor);
+    box-shadow: 0 1px 0 0 rgba(65,117,5,1), 0 2px 0 0 rgba(65,117,5,0.6), 0 4px 0 0 rgba(65,117,5,0.4), 0 6px 0 0 rgba(65,117,5,0.2), 0 8px 0 0 rgba(65,117,5,0.1);
+ }
+ a:hover:visited {
+    text-decoration: none;
+    color:var(--primecolor);
+    box-shadow: 0 1px 0 0 rgba(65,117,5,1), 0 2px 0 0 rgba(65,117,5,0.6), 0 4px 0 0 rgba(65,117,5,0.4), 0 6px 0 0 rgba(65,117,5,0.2), 0 8px 0 0 rgba(65,117,5,0.1);
+ }
+.bg-info {
+    background-color: transparent !important;
+}
+.jumbotron {
+    margin-bottom:0px !important;
+}
+.about-me > img {
+    justify-self: left !important;
+    margin-left: 200px;
+}
+.resume:hover {
+    background-color: transparent;
+    color:var(--primecolor);
+}
+.skills > ul > li {
+    background-color: transparent;
+    color:var(--primecolor);
+    text-decoration: none;
+}
+.skills > h4 {
+    margin-left:50px;
+    text-align: left;
+    color:var(--primecolor);
+}
